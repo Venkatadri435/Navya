@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Resume - John Doe</title>
+<style>
+  /* Reset */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #f4f7f8;
+    color: #333;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem 3rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  header {
+    border-bottom: 3px solid #4a90e2;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #2c3e50;
+  }
+  header p {
+    margin: 0.2rem 0 0;
+    color: #666;
+    font-size: 1rem;
+  }
+  .contact-info {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  .contact-info a {
+    color: #4a90e2;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  section h2 {
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    color: #2c3e50;
+  }
+  .summary p {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .skills-list span {
+    background: #4a90e2;
+    color: white;
+    padding: 0.4rem 0.9rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    user-select: none;
+  }
+  .experience, .education {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+  
+  }
+  @media (max-width: 600px) {
+    .container {
+      padding: 1.5rem 1.5rem;
+      margin: 1rem;
+    }
+    header h1 {
+      font-size: 2.2rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container" role="main">
+    <header>
+      <h1>navya Shruthi</h1>
+      <p class="contact-info">
+        <a href="mailto:navya@example.com">navya@example.com</a>
+        <a href="tel:+1234567890">+1 234 567 890</a>
+        <a href="https://linkedin.com/in/navya" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/navya" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+    </header>
+
+
+    <section class="skills" computer application="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <div class="skills-list" role="list">
+        <span role="listitem">Java (ES6+)</span>
+        <span role="listitem">html</span>
+        
+
+    <section class="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Work Experience</h2>
+      <article class="fresher"
+  
+      </artice>
+    
+        <p>Learning code </p>
+      </article>
+    </section>
+
+    <section class="education" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <article class="edu">
+        <h3>Bachelor of Computer Science</h3>
+        <h4>University of Technology</h4>
+        <div class="dates">2014 - 2018</div>
+      </article>
+    </section>
+  </div>
+</body>
+</html>
+
